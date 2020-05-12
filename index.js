@@ -7,7 +7,10 @@ function writeCards(names, event){
   }
   return arr;
 }
-
+function countDown(number){
+  for (number; number >= 0; number--) {
+    console.log(number);
+  }
+}
 const names = ["Ada", "Brendan", "Ali"];
-
 const cards = writeCards(names, 'surprise');
