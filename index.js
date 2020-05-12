@@ -14,3 +14,4 @@ function countDown(number){
 }
 const names = ["Ada", "Brendan", "Ali"];
 const cards = writeCards(names, 'surprise');
+countDown(cards.length);
