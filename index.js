@@ -7,4 +7,4 @@ function writeCards(names, event){
 
 const names = ["Ada", "Brendan", "Ali"];
 const event = "birthday";
-const card = writeCards(names, event);
+const card = writeCards(names, 'surprise');
